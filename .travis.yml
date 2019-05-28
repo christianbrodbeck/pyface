@@ -26,10 +26,6 @@ matrix:
     - os: osx
       env: RUNTIME=2.7 TOOLKITS="pyside2"
 
-branches:
-  only:
-    - master
-
 cache:
   directories:
     - "~/.cache"
