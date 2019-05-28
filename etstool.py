@@ -90,7 +90,7 @@ import click
 supported_combinations = {
     '2.7': {'pyside', 'pyqt', 'wx', 'pyside2'},
     '3.5': {'pyqt', 'pyqt5'},
-    '3.6': {'pyqt', 'pyqt5', 'pyside2'},
+    '3.6': {'pyqt', 'pyqt5', 'pyside2', 'wx'},
 }
 
 dependencies = {
